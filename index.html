@@ -1,0 +1,327 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Olwethu Uthando | Home</title>
+
+    <style>
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #fff8f6;
+            color: #57383b;
+            line-height: 1.7;
+        }
+
+        /* HEADER */
+
+        header {
+            background-color: #f3dede;
+            padding: 22px 8%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-wrap: wrap;
+        }
+
+        .logo {
+            font-size: 25px;
+            font-weight: bold;
+            color: #713f45;
+        }
+
+        nav a {
+            text-decoration: none;
+            color: #57383b;
+            margin: 0 12px;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            color: #bd7884;
+        }
+
+        /* HERO SECTION */
+
+        .hero {
+            min-height: 450px;
+            background:
+                linear-gradient(rgba(55, 30, 35, 0.45),
+                rgba(55, 30, 35, 0.45)),
+                url("https://images.unsplash.com/photo-1483985988355-763728e1935b?w=1400");
+
+            background-size: cover;
+            background-position: center;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            padding: 40px 20px;
+            color: white;
+        }
+
+        .hero h1 {
+            font-size: 45px;
+            margin-bottom: 15px;
+        }
+
+        .hero p {
+            font-size: 19px;
+            margin-bottom: 25px;
+        }
+
+        /* BUTTON */
+
+        .button {
+            display: inline-block;
+            background-color: #a85f6d;
+            color: white;
+            text-decoration: none;
+            padding: 13px 28px;
+            border-radius: 7px;
+            font-weight: bold;
+            transition: 0.3s;
+        }
+
+        .button:hover {
+            background-color: #824652;
+        }
+
+        /* WELCOME SECTION */
+
+        .welcome {
+            text-align: center;
+            padding: 65px 20px;
+            max-width: 850px;
+            margin: auto;
+        }
+
+        .welcome h2 {
+            color: #a85f6d;
+            font-size: 30px;
+            margin-bottom: 15px;
+        }
+
+        .welcome p {
+            color: #624c4c;
+            margin-bottom: 20px;
+        }
+
+        /* FEATURES */
+
+        .features {
+            display: flex;
+            justify-content: center;
+            gap: 25px;
+            padding: 30px 8% 65px;
+            flex-wrap: wrap;
+        }
+
+        .feature-box {
+            background-color: white;
+            padding: 30px;
+            border-radius: 12px;
+            text-align: center;
+            flex: 1;
+            min-width: 220px;
+            max-width: 350px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.07);
+        }
+
+        .feature-box h3 {
+            color: #a85f6d;
+            margin-bottom: 12px;
+        }
+
+        .feature-box p {
+            color: #624c4c;
+        }
+
+        /* QUOTE */
+
+        .quote {
+            text-align: center;
+            background-color: #f3dede;
+            padding: 55px 20px;
+        }
+
+        .quote h2 {
+            font-size: 27px;
+            color: #713f45;
+            margin-bottom: 10px;
+        }
+
+        /* FOOTER */
+
+        footer {
+            background-color: #57383b;
+            color: white;
+            text-align: center;
+            padding: 22px;
+        }
+
+        /* MOBILE */
+
+        @media (max-width: 768px) {
+
+            header {
+                flex-direction: column;
+                gap: 15px;
+            }
+
+            nav {
+                text-align: center;
+            }
+
+            nav a {
+                display: inline-block;
+                margin: 5px;
+            }
+
+            .hero h1 {
+                font-size: 30px;
+            }
+
+            .hero p {
+                font-size: 16px;
+            }
+
+            .features {
+                flex-direction: column;
+                align-items: center;
+            }
+
+            .feature-box {
+                width: 100%;
+            }
+        }
+
+    </style>
+</head>
+
+<body>
+
+    <!-- HEADER -->
+
+    <header>
+
+        <div class="logo">Olwethu Uthando</div>
+
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="about.html">About Us</a>
+            <a href="shop.html">Shop</a>
+            <a href="signup.html">Sign Up</a>
+        </nav>
+
+    </header>
+
+    <!-- HERO SECTION -->
+
+    <section class="hero">
+
+        <h1>Welcome to Olwethu Uthando</h1>
+
+        <p>Fashion, Beauty and Confidence in Every Outfit.</p>
+
+        <a href="shop.html" class="button">
+            Explore Our Collection
+        </a>
+
+    </section>
+
+    <!-- WELCOME SECTION -->
+
+    <section class="welcome">
+
+        <h2>Discover Your Style</h2>
+
+        <p>
+            Welcome to Olwethu Uthando, a female clothing
+            brand created for young women who love fashion,
+            creativity and expressing their individuality.
+        </p>
+
+        <p>
+            We believe every woman deserves to feel beautiful,
+            comfortable and confident in what she wears.
+        </p>
+
+        <a href="about.html" class="button">
+            Learn More About Us
+        </a>
+
+    </section>
+
+    <!-- FEATURES -->
+
+    <section class="features">
+
+        <div class="feature-box">
+
+            <h3>Our Fashion</h3>
+
+            <p>
+                Discover stylish clothing that celebrates
+                your personality and individuality.
+            </p>
+
+        </div>
+
+        <div class="feature-box">
+
+            <h3>Our Passion</h3>
+
+            <p>
+                We believe fashion is a beautiful way
+                to express yourself.
+            </p>
+
+        </div>
+
+        <div class="feature-box">
+
+            <h3>Our Community</h3>
+
+            <p>
+                Join a community of young women who
+                embrace confidence and creativity.
+            </p>
+
+        </div>
+
+    </section>
+
+    <!-- QUOTE -->
+
+    <section class="quote">
+
+        <h2>Fashion Is Your Own Way of Expressing Yourself.</h2>
+
+        <p>Be confident. Be beautiful. Be yourself.</p>
+
+    </section>
+
+    <!-- FOOTER -->
+
+    <footer>
+
+        <p>
+            &copy; 2026 Olwethu Uthando.
+            All Rights Reserved.
+        </p>
+
+    </footer>
+
+</body>
+</html>

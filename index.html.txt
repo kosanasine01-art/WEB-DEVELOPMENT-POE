@@ -1,0 +1,86 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Olwethu Uthando | Home</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- HEADER -->
+    <header>
+        <div class="logo">Olwethu Uthando</div>
+
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="about.html">About Us</a>
+            <a href="shop.html">Shop</a>
+            <a href="signup.html">Sign Up</a>
+        </nav>
+    </header>
+
+    <!-- HERO SECTION -->
+    <section class="page-heading">
+        <h1>Welcome to Olwethu Uthando</h1>
+        <p>Fashion, Beauty and Confidence in Every Outfit.</p>
+    </section>
+
+    <!-- INTRODUCTION -->
+    <section class="about-section">
+
+        <div class="about-image">
+            <img src="https://images.unsplash.com/photo-1483985988355-763728e1935b?w=900"
+                 alt="Women enjoying fashion and shopping">
+        </div>
+
+        <div class="about-text">
+            <h2>Discover Your Style</h2>
+
+            <p>
+                Welcome to Olwethu Uthando, a fashion brand
+                created for young women who love expressing
+                themselves through fashion.
+            </p>
+
+            <p>
+                We believe that every woman deserves to feel
+                beautiful, comfortable and confident in what
+                she wears.
+            </p>
+
+            <h2>Express Yourself</h2>
+
+            <p>
+                Explore our fashion collection and discover
+                styles that celebrate your individuality.
+            </p>
+
+            <a href="shop.html" class="button">Explore Our Shop</a>
+        </div>
+
+    </section>
+
+    <!-- QUOTE SECTION -->
+    <section class="quote">
+        <h2>Fashion Is Your Own Way of Expressing Yourself.</h2>
+        <p>Be confident. Be beautiful. Be yourself.</p>
+    </section>
+
+    <!-- SIGN UP SECTION -->
+    <section class="page-heading">
+        <h1>Join Our Fashion Community</h1>
+        <p>Become part of the Olwethu Uthando family today.</p>
+        <br>
+        <a href="signup.html" class="button">Sign Up Today</a>
+    </section>
+
+    <!-- FOOTER -->
+    <footer>
+        <p>&copy; 2026 Olwethu Uthando. All Rights Reserved.</p>
+    </footer>
+
+</body>
+</html>

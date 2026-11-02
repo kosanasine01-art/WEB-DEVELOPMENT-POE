@@ -1,0 +1,233 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Olwethu Uthando | Sign Up</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #fff8f6;
+            color: #57383b;
+            line-height: 1.6;
+        }
+
+        header {
+            background-color: #f3dede;
+            padding: 22px 8%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-wrap: wrap;
+        }
+
+        .logo {
+            font-size: 25px;
+            font-weight: bold;
+            color: #713f45;
+        }
+
+        nav a {
+            text-decoration: none;
+            color: #57383b;
+            margin: 0 12px;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            color: #bd7884;
+        }
+
+        .page-heading {
+            background-color: #f9e9e7;
+            text-align: center;
+            padding: 50px 20px;
+        }
+
+        .page-heading h1 {
+            color: #713f45;
+            font-size: 35px;
+            margin-bottom: 10px;
+        }
+
+        .page-heading p {
+            color: #795d5d;
+        }
+
+        .form-container {
+            max-width: 550px;
+            margin: 45px auto;
+            padding: 35px;
+            background-color: white;
+            border-radius: 12px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.08);
+        }
+
+        form {
+            display: flex;
+            flex-direction: column;
+        }
+
+        label {
+            margin-bottom: 7px;
+            font-weight: bold;
+            color: #57383b;
+        }
+
+        input {
+            padding: 13px;
+            margin-bottom: 18px;
+            border: 1px solid #dfc3c3;
+            border-radius: 7px;
+            font-size: 15px;
+            outline: none;
+        }
+
+        input:focus {
+            border-color: #bd7884;
+        }
+
+        .button {
+            padding: 13px;
+            background-color: #a85f6d;
+            color: white;
+            border: none;
+            border-radius: 7px;
+            font-size: 15px;
+            font-weight: bold;
+            cursor: pointer;
+            margin-top: 10px;
+        }
+
+        .button:hover {
+            background-color: #824652;
+        }
+
+        .reset-button {
+            padding: 13px;
+            background-color: #eee0df;
+            color: #57383b;
+            border: none;
+            border-radius: 7px;
+            cursor: pointer;
+            font-size: 15px;
+            margin-top: 10px;
+        }
+
+        .reset-button:hover {
+            background-color: #dfc3c3;
+        }
+
+        .form-note {
+            text-align: center;
+            margin-top: 20px;
+            color: #795d5d;
+            font-size: 14px;
+        }
+
+        footer {
+            background-color: #57383b;
+            color: white;
+            text-align: center;
+            padding: 22px;
+        }
+
+        @media (max-width: 600px) {
+            header {
+                flex-direction: column;
+                gap: 15px;
+            }
+
+            nav a {
+                display: inline-block;
+                margin: 5px;
+            }
+
+            .form-container {
+                margin: 25px 15px;
+                padding: 25px;
+            }
+
+            .page-heading h1 {
+                font-size: 28px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <div class="logo">Olwethu Uthando</div>
+
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="about.html">About Us</a>
+            <a href="shop.html">Shop</a>
+            <a href="signup.html">Sign Up</a>
+        </nav>
+    </header>
+
+    <section class="page-heading">
+        <h1>Join Our Fashion Community</h1>
+        <p>Sign up and become part of Olwethu Uthando.</p>
+    </section>
+
+    <section class="form-container">
+
+        <form action="#" method="post">
+
+            <label for="name">First Name</label>
+            <input type="text" id="name" name="name"
+                   placeholder="Enter your first name" required>
+
+            <label for="surname">Surname</label>
+            <input type="text" id="surname" name="surname"
+                   placeholder="Enter your surname" required>
+
+            <label for="email">Email Address</label>
+            <input type="email" id="email" name="email"
+                   placeholder="Enter your email" required>
+
+            <label for="contact">Contact Number</label>
+            <input type="tel" id="contact" name="contact"
+                   placeholder="Enter your contact number" required>
+
+            <label for="username">Username</label>
+            <input type="text" id="username" name="username"
+                   placeholder="Create a username" required>
+
+            <label for="password">Password</label>
+            <input type="password" id="password" name="password"
+                   placeholder="Create a password" required>
+
+            <button type="submit" class="button">
+                Create Account
+            </button>
+
+            <button type="reset" class="reset-button">
+                Clear Form
+            </button>
+
+        </form>
+
+        <p class="form-note">
+            Thank you for choosing Olwethu Uthando!
+        </p>
+
+    </section>
+
+    <footer>
+        <p>&copy; 2026 Olwethu Uthando. All Rights Reserved.</p>
+    </footer>
+
+</body>
+</html>
